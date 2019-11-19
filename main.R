@@ -49,4 +49,7 @@ source("scripts/heatmap.R")
 # Generate alpha diversit plots.
 source("scripts/alpha_diversity.R")
 
+# Generate some network graphs
+source("scripts/network_graph.R")
+
 
