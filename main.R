@@ -29,12 +29,13 @@ library(phyloseq)
 ## This cleans up the scripts a lot. 
 source("scripts/load_and_process_data.R")
 
-source("scripts/abundance_plots.R")
 
 ##
 # All of the following scripts depend
 # on load_and_process_data.R
 ##
+
+source("scripts/abundance_plots.R")
 
 # Creating a distance plot
 source("scripts/distance_plot.R")

@@ -1,3 +1,8 @@
+# tree <- rtree(ntaxa(physeq), rooted = FALSE, tip.label = taxa_names(pruned_physeq))
+# physeq <- merge_phyloseq(physeq, tree)
+# big_tree_plot <- plot_tree(physeq, label.tips = "Class")
+# ggsave("plots/tree_plot.png", tree_plot)
+
 # Need to tame the number of branches for a nice plot. AFter inpsecting the distribution
 # and some trial and error settled on this.
 pruned_physeq <- prune_taxa(taxa_sums(physeq) >= 10000, physeq)

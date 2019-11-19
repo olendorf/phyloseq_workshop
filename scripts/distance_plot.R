@@ -1,5 +1,5 @@
 
-
+# There are a lot of distance methods.  This gets rid of those that don't work with this data.
 dist_methods <- unlist(distanceMethodList)
 dist_methods <- dist_methods[-(1:3)]  # These won't work with our data
 dist_methods = dist_methods[-which(dist_methods=="ANY")]
@@ -9,7 +9,7 @@ dist_methods = dist_methods[-which(dist_methods=="altGower")]
 dist_methods = dist_methods[-which(dist_methods=="maximum")]
 
 
-
+# Generate plots for each distance.
 plist <- vector("list", length(dist_methods))
 names(plist) = dist_methods
 
@@ -36,6 +36,8 @@ dist_plot <- dist_plot + geom_point(size = 1) +
 ggsave("plots/dist_mds.png", dist_plot)
 
 
+
+## Generate a plot for once distance.
 
 dist <- distance(physeq, "jaccard")
 imds <- ordinate(physeq, "MDS", distance = dist)
