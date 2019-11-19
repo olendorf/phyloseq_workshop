@@ -1,0 +1,18 @@
+SampleID	ForwardFastqFile	ReverseFastqFile	TreatmentGroup	Description
+S1	1_S1_L001_R1_001.fastq	1_S1_L001_R2_001.fastq	1	Swine, Chicken; 6 weeks; 51C; 1B2
+S2	2_S2_L001_R1_001.fastq	2_S2_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2B2
+S3	3_S3_L001_R1_001.fastq	3_S3_L001_R2_001.fastq	3	Poultry, feed, eggs; 2 weeks; 52C; 3B2
+S4	4_S4_L001_R1_001.fastq	4_S4_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2B2
+S5	5_S5_L001_R1_001.fastq	5_S5_L001_R2_001.fastq	3	Poultry, feed, eggs; 2 weeks; 52C; 3B2
+S6	6_S6_L001_R1_001.fastq	6_S6_L001_R2_001.fastq	1	Swine, Chicken; 6 weeks; 51C; 1A2
+S7	7_S7_L001_R1_001.fastq	7_S7_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2A2
+S8	8_S8_L001_R1_001.fastq	8_S8_L001_R2_001.fastq	3	Poultry, feed, eggs; 2 weeks; 52C; 3A2
+S9	9_S9_L001_R1_001.fastq	9_S9_L001_R2_001.fastq	1	Swine, Chicken; 6 weeks; 51C; 1A2
+S10	10_S10_L001_R1_001.fastq	10_S10_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2C2
+S11	11_S11_L001_R1_001.fastq	11_S11_L001_R2_001.fastq	1	Swine, Chicken; 6 weeks; 51C; 1C2
+S12	12_S12_L001_R1_001.fastq	12_S12_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2D2
+S13	13_S13_L001_R1_001.fastq	13_S13_L001_R2_001.fastq	3	Poultry, feed, eggs; 2 weeks; 52C; 3C2
+S14	14_S14_L001_R1_001.fastq	14_S14_L001_R2_001.fastq	1	Swine, Chicken; 6 weeks; 51C; 1C2
+S15	15_S15_L001_R1_001.fastq	15_S15_L001_R2_001.fastq	2	Poultry; 4 weeks; 68C; 2C2
+S16	16_S16_L001_R1_001.fastq	16_S16_L001_R2_001.fastq	3	Poultry, feed, eggs; 2 weeks; 52C; 3C2
+S17	Mock_S17_L001_R1_001.fastq	Mock_S17_L001_R2_001.fastq	0	Mock
